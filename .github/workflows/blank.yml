@@ -9,7 +9,7 @@ jobs:
       uses: actions/checkout@v2.1.0
     
     - name: 📂 Sync files
-      uses: Samkirkaland/FTP-Deploy-Action@3.1.1
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ${{ secrets.SERVER }}
         username: ${{ secrets.USERNAME }}
