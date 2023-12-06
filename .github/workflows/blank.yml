@@ -30,6 +30,6 @@ jobs:
         uses: JotonSd/FTP-Deploy-Action@4.1.0
         with:
           server: ftp.sdsoftbd.com
-          username: ${{ CLASSIC_PORTFOLIO }}
-          password: ${{ secrets.!@#$%^&*() }}
+          username: cicd@sdsoftbd.com
+          password: ${{ secrets.CLASSIC_PORTFOLIO }}
           server-dir: /
