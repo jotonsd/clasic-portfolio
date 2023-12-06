@@ -14,3 +14,4 @@ jobs:
         server: ftp.sdsoftbd.com
         username: cicd@sdsoftbd.com
         password: ${{ secrets.CLASSIC_PORTFOLIO }}
+        server-dir: /
