@@ -288,9 +288,11 @@
             <a href="#top" class="nb-button blue"><i class="fas fa-arrow-up"></i> Back to top</a>
         </div>
         <div class="copyright">
-            &copy; 2023 Joton Sutradhar. All rights reserved.
+            &copy; <span id="year"></span> Joton Sutradhar. All rights reserved.
         </div>
     </footer>
 </body>
-
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
 </html>
